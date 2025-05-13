@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table{
+            width: 70%;
+        }
+        table, tr, td, th {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        td{ 
+            text-align: center;
+        }
+        th{
+            background-color:aqua;
+        }
+        tr{
+            height: 20px;
+        }
+        tr:nth-child(odd){
+            background-color: rgb(213, 244, 226);
+        }
+        tr:nth-child(even){
+            background-color: beige;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th> ID </th>
+                <th> Name </th>
+            <th> Gender </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td> 101 </td>
+            <td> Vandet </td>
+            <td> Male </td>
+        </tr>
+        <tr>
+            <td> 102 </td>
+            <td> U dom </td>
+            <td> Male </td>
+        </tr>
+        <tr>
+            <td> 103 </td>
+            <td> Na roth </td>
+            <td> Male </td>
+        </tr>
+        <tr>
+            <td> 104 </td>
+            <td> Si yang </td>
+            <td> Female </td>
+        </tr>
+        <tr>
+            <td> 105 </td>
+            <td> Na rong </td>
+            <td> Male </td>
+        </tr>
+        <tr>
+            <td> 106 </td>
+            <td> Lamroit </td>
+            <td> Female </td>
+        </tr>
+    </tbody>
+</table>
+    
+</body>
+</html>
